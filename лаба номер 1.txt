@@ -1,4 +1,4 @@
-Малюк Вадим ПД-22 Варіант 15
+РњР°Р»СЋРє Р’Р°РґРёРј РџР”-22 Р’Р°СЂС–Р°РЅС‚ 15
 using System;
 
 class Program
@@ -6,19 +6,19 @@ class Program
     static void Main(string[] args)
     {
         int x, num1, num2, num3;
-        Console.WriteLine("Введiть х");
-        Console.WriteLine("x повинен бути бiльше 0");
+        Console.WriteLine("Г‚ГўГҐГ¤iГІГј Гµ");
+        Console.WriteLine("x ГЇГ®ГўГЁГ­ГҐГ­ ГЎГіГІГЁ ГЎiГ«ГјГёГҐ 0");
         x = int.Parse(Console.ReadLine());
         while(x <= 0)
         {
-            Console.WriteLine("x повинен бути бiльше 0!!");
+            Console.WriteLine("x ГЇГ®ГўГЁГ­ГҐГ­ ГЎГіГІГЁ ГЎiГ«ГјГёГҐ 0!!");
             x = int.Parse(Console.ReadLine());
         }
         num1 = x / 60 /60;
         num2 = x / 60 % 60;
         num3 = x % 60 % 60;
-        Console.WriteLine($"Годин {num1}");
-        Console.WriteLine($"Хвилин {num2}");
-        Console.WriteLine($"Секунд {num3}");
+        Console.WriteLine($"ГѓГ®Г¤ГЁГ­ {num1}");
+        Console.WriteLine($"Г•ГўГЁГ«ГЁГ­ {num2}");
+        Console.WriteLine($"Г‘ГҐГЄГіГ­Г¤ {num3}");
     }
 }
