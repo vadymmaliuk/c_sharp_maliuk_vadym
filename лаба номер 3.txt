@@ -1,3 +1,4 @@
+РњР°Р»СЋРє Р’Р°РґРёРј РџР”-22 Р’Р°СЂС–Р°РЅС‚ 15
 using System;
 
 class Program
@@ -5,7 +6,7 @@ class Program
     static void Main(string[] args)
     {
         int x, y, z;
-        Console.WriteLine("Введiть будь якi 3 цифри");
+        Console.WriteLine("Г‚ГўГҐГ¤iГІГј ГЎГіГ¤Гј ГїГЄi 3 Г¶ГЁГґГ°ГЁ");
         Console.WriteLine("x = ");
         x = int.Parse(Console.ReadLine());
         Console.WriteLine("y = ");
@@ -14,11 +15,11 @@ class Program
         z = int.Parse(Console.ReadLine());
         if(x + y == z)
         {
-            Console.WriteLine("Цифри утворюють арефметичну прогресiю");
+            Console.WriteLine("Г–ГЁГґГ°ГЁ ГіГІГўГ®Г°ГѕГѕГІГј Г Г°ГҐГґГ¬ГҐГІГЁГ·Г­Гі ГЇГ°Г®ГЈГ°ГҐГ±iГѕ");
         }
         else
         {
-            Console.WriteLine("Цифри не утворюють арефметичну прогресiю");
+            Console.WriteLine("Г–ГЁГґГ°ГЁ Г­ГҐ ГіГІГўГ®Г°ГѕГѕГІГј Г Г°ГҐГґГ¬ГҐГІГЁГ·Г­Гі ГЇГ°Г®ГЈГ°ГҐГ±iГѕ");
         }
     }
 }
