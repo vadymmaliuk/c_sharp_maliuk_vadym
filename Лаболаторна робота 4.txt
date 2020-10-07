@@ -1,0 +1,45 @@
+using System;
+
+class Program
+{
+
+    static void Main()
+    {
+
+        int n, k = 0, m = 0;
+
+        n = int.Parse(Console.ReadLine());
+
+        int[] a;
+
+        a = new int[n];
+
+        for (int i = 0; i < n; i++)
+        {
+
+            Console.Write("n[" + (i) + "] = ");
+
+            a[i] = int.Parse(Console.ReadLine()); 
+        }
+        for (int i =1; i<n-1;i++)
+            {
+            if (a[i] < a[i + 1])
+            {
+                k++;
+            }          
+            if (a[i] > a[i + 1])
+            {
+                m++;
+            }
+        }
+
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write(a[i] + " ");
+        }
+        Console.WriteLine(" ");
+        Console.WriteLine("Количество промежутков роста: "+ k);
+        Console.WriteLine("Количество промежутков спада: "+ m);
+    }
+}
