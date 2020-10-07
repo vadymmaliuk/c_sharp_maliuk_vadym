@@ -1,4 +1,4 @@
-Малюк Вадим ПД-22 Варіант 15
+Малюк Вадим ПД-22 Варіант 11
 using System;
 
 class Program
@@ -6,19 +6,19 @@ class Program
     static void Main(string[] args)
     {
         int x, num1, num2, num3;
-        Console.WriteLine("Ââåäiòü õ");
-        Console.WriteLine("x ïîâèíåí áóòè áiëüøå 0");
+        Console.WriteLine("Введіть число");
+        Console.WriteLine("x повиннен бути більше 0");
         x = int.Parse(Console.ReadLine());
         while(x <= 0)
         {
-            Console.WriteLine("x ïîâèíåí áóòè áiëüøå 0!!");
+            Console.WriteLine("x повиннен бути більше 0!!");
             x = int.Parse(Console.ReadLine());
         }
         num1 = x / 60 /60;
         num2 = x / 60 % 60;
         num3 = x % 60 % 60;
-        Console.WriteLine($"Ãîäèí {num1}");
-        Console.WriteLine($"Õâèëèí {num2}");
-        Console.WriteLine($"Ñåêóíä {num3}");
+        Console.WriteLine($"годин {num1}");
+        Console.WriteLine($"хвилин {num2}");
+        Console.WriteLine($"секунд {num3}");
     }
 }
