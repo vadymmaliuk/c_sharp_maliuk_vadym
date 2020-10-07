@@ -1,3 +1,4 @@
+РњР°Р»СЋРє Р’Р°РґРёРј РџР”-22 Р’Р°СЂС–Р°РЅС‚ 15
 using System;
 
 class Program
@@ -39,7 +40,7 @@ class Program
             Console.Write(a[i] + " ");
         }
         Console.WriteLine(" ");
-        Console.WriteLine("Количество промежутков роста: "+ k);
-        Console.WriteLine("Количество промежутков спада: "+ m);
+       Console.WriteLine("РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕРјРµР¶СѓС‚РєРѕРІ СЂРѕСЃС‚Р°: "+ k);
+        Console.WriteLine("РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕРјРµР¶СѓС‚РєРѕРІ СЃРїР°РґР°: "+ m);
     }
 }
