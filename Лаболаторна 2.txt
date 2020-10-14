@@ -1,3 +1,4 @@
+РњР°Р»СЋРє Р’Р°РґРёРј РџР”-22 Р’Р°СЂС–Р°РЅС‚ 15
 using System;
 class HelloWorld
 {
@@ -5,15 +6,15 @@ class HelloWorld
     {
         double nn;
         double nk;
-        Console.Write("Введите ваш nn ");
+        Console.Write("Р’РІРµРґРёС‚Рµ nn ");
         nn = double.Parse(Console.ReadLine());
-        Console.Write("Введите ваш nk ");
+        Console.Write("Р’РІРµРґРёС‚Рµ nk ");
         nk = double.Parse(Console.ReadLine());
         decimal result = 0;
         for (int k = (int)(nn); k <= nk; k++)
         {
             result += (decimal)((k * k + (Math.Pow(-1, k * k+(Math.Pow(-1,k) * k)*k) / (3*k * k + 5))));
         }
-        Console.Write("Ответ " + result);
+        Console.Write("Р РµР·СѓР»СЊС‚Р°С‚ " + result);
     }
 }
