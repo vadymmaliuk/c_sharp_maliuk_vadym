@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+namespace labwork6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int numb;
+            Console.Write("Введите число: ");
+            while (!int.TryParse(Console.ReadLine(), out numb))
+            {
+                Console.Write("Неверно! Попытайтесь еще раз: ");
+            }
+            string num = numb.ToString();
+            List<int> numList = new List<int>();
+            for (int i = 0; i < num.Length; i++)
+            {
+                numList.Add(int.Parse(num[i].ToString()));
+            }
+            numList.Sort();
+            int cont = 0;
+            for (int i = 0; i < numList.Count; i++)
+            {
+                for (int j = 0; j < numList.Count; j++)
+                {
+                    if (numList[i] == numList[j])
+                        cont++;
+                }
+                Console.WriteLine("Елемент{0} у нас есть {1} здесь!", numList[i], cont);
+                i += cont - 1;
+            cont = 0;
+            }
+            Console.Write("Введите число для поиска: ");
+            int numToFind;
+            while (!int.TryParse(Console.ReadLine(), out numToFind))
+            { 
+                Console.Write("Неверно! Попытайтесь еще раз: ");
+            }
+            for (int i = 0; i < numList.Count; i++)
+            {
+                if (numList[i] == numToFind)
+                {
+                    Console.WriteLine("Число находится на {0} месте", i + 1);
+                    return;
+                }
+            }
+            Console.WriteLine("Такого {0} числа нет!", numToFind);
+        }
+    }
+}
