@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-namespace labwork6
+namespace labwork7
 {
     class Program
     {
