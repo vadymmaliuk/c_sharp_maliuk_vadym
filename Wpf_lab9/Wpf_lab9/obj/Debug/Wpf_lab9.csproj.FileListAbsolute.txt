@@ -1,0 +1,5 @@
+C:\Users\User\source\repos\Wpf_lab9\Wpf_lab9\obj\Debug\Wpf_lab9.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Wpf_lab9\Wpf_lab9\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\Wpf_lab9\Wpf_lab9\obj\Debug\App.g.cs
+C:\Users\User\source\repos\Wpf_lab9\Wpf_lab9\obj\Debug\Wpf_lab9_MarkupCompile.cache
+C:\Users\User\source\repos\Wpf_lab9\Wpf_lab9\obj\Debug\Wpf_lab9_MarkupCompile.lref

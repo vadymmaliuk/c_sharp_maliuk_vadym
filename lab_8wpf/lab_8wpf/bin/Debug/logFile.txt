@@ -1,0 +1,5 @@
+textBox: вапывпа
+checkBox1: False
+checkBox2: False
+Height: 171
+Width: 284
